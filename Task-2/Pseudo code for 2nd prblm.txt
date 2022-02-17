@@ -1,0 +1,26 @@
+Declare main function
+Declare a variable n of type int
+print"Enter the value of n:"
+Get the input as n
+print the function fibo(n)
+
+Function fibo(n):
+Declare a function named fibo of type int
+Declare the variables result,firstterm,last term,sum,i
+Assign firstterm=0,lastterm=1
+If n==0 is true,
+   Asign result=n
+If n==0 is false,
+   Go to the condition If n==1
+	If the condition n==1 is true,
+		Assign result=n
+	If the condition n==1 is false,	
+		Go to the for condition(i=0 to n-2)
+			If the given value is within the range,
+				Assign sum=firstterm+lastterm
+				Assign firstterm=lastterm
+				lastterm=sum
+			If the condition gets over,
+				Assign result=sum
+After the condition is over,
+return the result in integer value
